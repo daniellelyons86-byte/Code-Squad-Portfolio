@@ -1,0 +1,55 @@
+body {
+    background-color: LightGreen;
+    color: DarkGray;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 40px 20px;
+    margin: 0;
+}
+.portfolio-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.highlight {
+    color: ForestGreen;
+}
+.content-card {
+    background: White;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 25px;
+    padding: 30px;
+}
+.links-section {
+    text-align: center;
+    margin-bottom: 35px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: White;
+}
+.linkedin-btn { background-color: Blue; }
+.github-btn { background-color: Gray; }
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+.caption {
+    font-size: 0.9rem;
+    color: SlateGray;
+    text-align: center;
+}
